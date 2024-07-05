@@ -1,0 +1,24 @@
+{
+  "navbar": [
+    {
+      "href": "/",
+      "title": "Home",
+      "url": "/"
+    },
+    {
+      "href": "Portafolio",
+      "title": "Portafolio",
+      "url": "https://lanzamientosspacex.netlify.app/"
+    },
+    {
+      "href": "About",
+      "title": "Sobre mi",
+      "url": "About"
+    },
+    {
+      "href": "Contacto",
+      "title": "Contacto",
+      "Contacto": "Contacto"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+---
+import X from "../icons/X.astro";
+---
+
+<section>
+  <div>
+    <div class="container-text">
+      <h1>Harley Pelaez</h1>
+      <h4>Soy Dev Junior</h4>
+
+      <a href="https://lanzamientosspacex.netlify.app/" target="_blank"
+        >Ver proyectos</a
+      >
+    </div>
+  </div>
+  <div>
+    <img
+      src="https://pbs.twimg.com/profile_images/1267361493378531328/IWDRTpW3_400x400.jpg"
+      alt=""
+    />
+  </div>
+  <div class="container-icons">
+    <a target="_blank" href="https://x.com/TellezHarley"
+      ><i class="fa-brands fa-x-twitter fa-2xl"></i></a
+    >
+    <a target="_blank" href="https://www.facebook.com/pelaezharley"
+      ><i class="fa-brands fa-facebook fa-2xl"></i></a
+    >
+    <a target="_blank" href="https://github.com/HarleyPelaezTellez"
+      ><i class="fa-brands fa-github fa-2xl"></i></a
+    >
+    <a target="_blank" href="https://www.linkedin.com/in/harleypelaeztellez98/"
+      ><i class="fa-brands fa-linkedin fa-2xl"></i></a
+    >
+  </div>
+</section>
+
+<style>
+  section {
+    @apply flex max-w-6xl m-auto;
+  }
+
+  section div {
+    @apply w-1/2 flex flex-col h-[600px];
+  }
+
+  section div div {
+    @apply m-auto flex;
+  }
+
+  section div .container-text {
+    @apply m-auto h-56 w-full;
+  }
+
+  img {
+    @apply w-auto h-auto m-auto rounded-full;
+  }
+
+  section div h1,
+  h4 {
+    @apply text-center m-auto text-current;
+  }
+  section div h1 {
+    @apply text-6xl font-extrabold;
+  }
+
+  section div h4 {
+    @apply text-2xl;
+  }
+
+  a {
+    @apply bg-green-500 w-1/2 m-auto py-3 rounded-lg font-bold hover:bg-white hover:text-green-500 transition-all text-center;
+  }
+
+  section .container-icons {
+    @apply h-[250px] flex m-auto;
+  }
+
+  section .container-icons a {
+    @apply h-[50px] m-auto;
+  }
+</style>

@@ -1,0 +1,33 @@
+---
+import { navbar } from "../portafolio.json";
+
+const itemsNav = navbar;
+---
+
+<div>
+  <nav>
+    {
+      itemsNav.map(({ title, href }) => (
+        <a href={href}>
+          <span>{title}</span>
+        </a>
+      ))
+    }
+  </nav>
+</div>
+
+<style>
+  div {
+    @apply bg-slate-950 text-white w-screen h-12 m-auto flex;
+  }
+  nav {
+    @apply m-auto h-full w-[700px] justify-between flex;
+  }
+  a {
+    @apply w-full hover:bg-green-500 m-auto h-full flex;
+  }
+
+  span {
+    @apply m-auto;
+  }
+</style>
